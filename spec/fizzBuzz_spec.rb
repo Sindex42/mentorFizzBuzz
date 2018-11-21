@@ -22,4 +22,17 @@ describe "FizzBuzz" do
   it "returns FizzBuzz when given 30" do
     expect(fizzbuzz(30)).to eq("FizzBuzz")
   end
+
+  it "returns Fazz when given 7" do
+    expect(fizzbuzz(7)).to eq "Fazz"
+  end
+  it "returns FizzFazz when given 21" do
+    expect(fizzbuzz(21)).to eq "FizzFazz"
+  end
+  it "returns BuzzFazz when given 35" do
+    expect(fizzbuzz(35)).to eq "BuzzFazz"
+  end
+  it "returns FizzBuzzFazz when given 105" do
+    expect(fizzbuzz(105)).to eq "FizzBuzzFazz"
+  end
 end
